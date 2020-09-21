@@ -1,10 +1,10 @@
 
-
-def print_hi(name):
-
-    print(f'Hi, {name}')
+def suma():
+    numero1= int (input("Dame un numero:"))
+    numero2= int (input("Dame otro  numero:"))
+    print("La suma es:", numero1 + numero2)
 
 
 if __name__ == '__main__':
-    print_hi('Rigoberto')
+    suma()
 
